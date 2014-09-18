@@ -56,7 +56,7 @@ object AggregateAndSave {
     // keyspace & table
     val rdd = sc.cassandraTable("tutorial", "demo")
 
-    // get a simple count
+    // get a simple count of all the rows in the demo table
     val result = rdd.count()
 
     // map accepts a function.  the function receives a CassandraRow
