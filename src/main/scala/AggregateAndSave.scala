@@ -13,7 +13,7 @@
   CREATE TABLE tutorial.demo (
       id int PRIMARY KEY,
       v int
-  )
+  );
 
   insert into demo (id, v) values (1, 2);
   insert into demo (id, v) VALUES ( 3, 384);
