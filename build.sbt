@@ -1,4 +1,4 @@
-name := "untitled6"
+name := "learn-spark-examples"
 
 version := "1.0"
 
