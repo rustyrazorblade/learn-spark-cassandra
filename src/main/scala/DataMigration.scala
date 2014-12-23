@@ -6,6 +6,8 @@
  *
  * Original table + sample data:
 
+   CREATE KEYSPACE tutorial WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
    CREATE TABLE tutorial.demo (
     id int PRIMARY KEY,
     v int
